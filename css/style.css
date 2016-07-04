@@ -1,0 +1,58 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+/*
+div.opa{
+    opacity: 0.3;
+    background-color: white;
+    color: black;
+
+}*/
+
+
+/*
+.avatar{
+    opacity: 0.0;
+
+}
+*/
+
+.avatar{
+    background-color: black;
+    border: none;
+
+
+}
+
+.avatar img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.jumbotron {
+    background-color: black;
+    /*background-image: url(../images/pic1.jpg);*/
+    color: white;
+    background-size: cover;
+    text-align: center;
+    /*padding: 250px;*/
+
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+}
+
+.container-fluid{
+    background-color: black;
+}
+
+.img-rounded{
+    height: 600px;
+
+
+}
