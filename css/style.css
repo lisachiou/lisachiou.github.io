@@ -1,25 +1,34 @@
 
+
+
+/* 768px以上 */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* 992px以上 */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* 1200px以上 */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+* {
+font-family: 'Ubuntu', sans-serif;}
+
 body{
     background-color: black;
     color: white;
 }
-
-
-/*
-div.opa{
-    opacity: 0.3;
-    background-color: white;
-    color: black;
-
-}*/
-
-
-/*
-.avatar{
-    opacity: 0.0;
-
-}
-*/
 
 .avatar{
     background-color: black;
@@ -58,4 +67,16 @@ div.opa{
 }
 .fooddiary{
     color: black;
+}
+
+.main{
+    margin-top:80px;
+}
+
+.word{
+    color:black;
+}
+
+input{
+    width:auto;
 }
